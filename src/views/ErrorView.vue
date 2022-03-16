@@ -7,3 +7,5 @@
     >Volver a la página de Inicio</router-link>
   </div>
 </template>
+
+
