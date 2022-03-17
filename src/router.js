@@ -1,9 +1,9 @@
 import { createWebHistory, createRouter } from 'vue-router';
 
-import Home from '@/views/Home';
+import HomeView from '@/views/Home';
 import AboutView from '@/views/AboutView';
 import ErrorView from '@/views/ErrorView';
-import CoinDetail from '@/views/CoinDetailView';
+import CoinDetailView from '@/views/CoinDetailView';
 
 const history = createWebHistory();
 
@@ -13,7 +13,7 @@ export default createRouter ({
         {
             path: "/",
             name: 'home',
-            component: Home
+            component: HomeView
         },
         {
             path: "/about",
@@ -28,7 +28,7 @@ export default createRouter ({
         {
             path: '/coin/:id',
             name: 'coin-detail',
-            component: CoinDetail,
+            component: CoinDetailView,
         }
         
     ],

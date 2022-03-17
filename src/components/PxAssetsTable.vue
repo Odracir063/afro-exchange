@@ -50,7 +50,7 @@
             {{ percentFilter(a.changePercent24Hr) }}
         </td>
         <td class="hidden sm:block">
-            <px-button v-on:click="goToCoin(a.id)">
+            <px-button @click="goToCoin(a.id)">
                 <span>Detalle</span>
             </px-button>
         </td>
