@@ -1,4 +1,4 @@
-# platzi-exchange
+# Afro-exchange
 
 ## Project setup
 ```
